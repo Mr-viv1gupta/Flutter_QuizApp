@@ -50,6 +50,10 @@ class QuizBrain {
 
   void reset() {
     _questionNumber = 0;
+    _correctAttempt = 0;
+  }
+  void updateCorrectAttempt() {
+    _correctAttempt++;
   }
 
   String getFinalResult() {

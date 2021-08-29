@@ -82,6 +82,7 @@ class _QuizPageState extends State<QuizPage> {
               color: Colors.green,
             ),
           );
+          quizbrain.updateCorrectAttempt();
         } else {
           scoreKeeper.add(
             Icon(
